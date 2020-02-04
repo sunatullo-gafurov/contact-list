@@ -1,5 +1,5 @@
 import React from 'react';
-import ContactList from './Components/ContactList';
+import Contact from './Components/Contact';
 import './App.css';
 
 function App() {
@@ -26,7 +26,7 @@ function App() {
   return (
     <div className="App">
       <h2 className="title">Contacts</h2>
-      {contacts.map(contact => <ContactList {...contact} />)}
+      {contacts.map(contact => <Contact {...contact} />)}
     </div>
   );
 }

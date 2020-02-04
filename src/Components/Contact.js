@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function ContactList(props) {
+export default function Contact(props) {
     const {id, name, online, imgUrl} = props;
     return (
         <div key={id} className="contact">
