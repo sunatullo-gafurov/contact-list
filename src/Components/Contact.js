@@ -1,9 +1,9 @@
 import React from 'react';
 
 export default function Contact(props) {
-    const {id, name, online, imgUrl} = props;
+    const {name, online, imgUrl} = props;
     return (
-        <div key={id} className="contact">
+        <div className="contact">
             <div className="person">
                 <img className="img" src={imgUrl} alt=""/>
             <div className="status">

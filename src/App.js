@@ -26,7 +26,7 @@ function App() {
   return (
     <div className="App">
       <h2 className="title">Contacts</h2>
-      {contacts.map(contact => <Contact {...contact} />)}
+      {contacts.map(contact => <Contact key={contact.id} {...contact} />)}
     </div>
   );
 }
